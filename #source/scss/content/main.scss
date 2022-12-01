@@ -1,0 +1,12 @@
+@import './section/home.scss';
+@import './section/aboutMe.scss';
+@import './section/skills.scss';
+@import './section/portfolio.scss';
+
+section {
+    padding: 100px 0;
+}
+
+section:nth-child(2n) {
+    background-color: #F6F6F6;
+}

@@ -1,0 +1,40 @@
+.sectionHome__info {
+    display: flex;
+    justify-content: space-between;
+
+    div:nth-child(1) {
+        font-size: 2.3rem;
+        width: 5.9rem;
+    }
+    div:nth-child(2) {
+        font-size: 0.8rem;
+        width: 7.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .ru-eng {
+        width: 3.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        &>div {
+            font-size: 0.8rem;
+            transform: rotate(-90deg);
+            span {
+                color: #828282;
+            }
+        }
+    }
+}
+
+.sectionHome__photo {
+    height: 387px;
+    margin-top: 35px;
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 0 40%;
+    }
+}

@@ -1,0 +1,51 @@
+@media (max-width: 800px) {
+    html {
+        font-size: 18px;
+    }
+    .block-center {
+        width: 65%;
+    }
+}
+
+@media (max-width: 600px) {
+    .block-center{
+        width: 85%;
+    }
+    footer .footer__networks {
+        width:85%;
+    }
+}
+
+@media (max-width: 400px) {
+    header nav span{
+        display: none;
+    }
+
+    .headerWrapper .burgerMenu {
+        display: block;
+    }
+
+    section:nth-child(1) {
+        padding: 20px 0 100px 0;
+    }
+    .sectionHome__info {
+        display: block;
+    }
+    .ru-eng > div {
+        display: none;
+    }
+
+    .skillsWrapper {
+        justify-content: center;
+    }
+
+    .sectionHome__info {
+        .gilroyB:nth-child(1):after {
+            content: '';
+            position: absolute;
+            right: 5%;
+            top: 4%;
+
+        }
+    }
+}
